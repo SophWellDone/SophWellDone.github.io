@@ -1,0 +1,75 @@
+
+
+body {
+ background : #333;
+ color: #fff; 
+ font-family : roboto;
+}
+
+.navbar{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color: #222;
+ 
+ /* Fix to top of screen */
+ position: fixed;
+ top: 0;
+ width: 100%;
+}
+
+.navbar_element{
+  float: left;
+  display: block;
+  padding: 8px;
+  background-color: #555;
+  border-right: 1px solid #222;
+}
+
+
+/* link inside top navbar element */
+.navbar_element a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar_element:last-child{
+  border-right: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar a:hover {
+  background-color: #111;
+}
+
+/* the page currently on in the top navbar */
+.active {
+  background-color: #04AA6D;
+}
+
+
+/* GAME / PROJECT LISTS */
+
+/* container for project (game examples etc.) */
+.project_container {
+	background : #444;
+	display: grid;
+}
+
+/* Container for my existing games - contains a name, descipriton and link or embed. */
+.project {
+	background : #555;
+}
+
+/* Heading for a game title */
+.project_title {
+ color : #c449bc;
+}
+
+.project_description {
+ color : #bd82b9;
+}
