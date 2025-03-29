@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://sophwelldone.github.io/sitemap.xml
