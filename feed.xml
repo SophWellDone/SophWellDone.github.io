@@ -3,12 +3,120 @@
     <title>SophWellDone</title>
     <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
     <link href="https://sophwelldone.github.io" />
-    <updated>2025-03-29T00:36:11+00:00</updated>
+    <updated>2025-03-29T02:12:06+00:00</updated>
     <author>
         <name>Sophie Wheldon</name>
     </author>
     <id>https://sophwelldone.github.io</id>
 
+    <entry>
+        <title>Planking Boarders Devlog - Day 1</title>
+        <author>
+            <name>Sophie Wheldon</name>
+        </author>
+        <link href="https://sophwelldone.github.io/planking-boarders.html"/>
+        <id>https://sophwelldone.github.io/planking-boarders.html</id>
+            <category term="Game Jams"/>
+
+        <updated>2025-03-29T01:05:10+00:00</updated>
+            <summary>
+                <![CDATA[
+                    Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom deck and fighting navy boarders on the top deck. Its a very frantic, silly and cartoony experience! It is also my entry I submitted to&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom deck and fighting navy boarders on the top deck. Its a very frantic, silly and cartoony experience! It is also my entry I submitted to a game jam my university hosted in my first year of my course and managed to win it!
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/peak.png" height="376" width="1000" alt="A screenshot of the announcement that Planking Boarders, my submission, had won the GameX games jam"  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/peak-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-2xl.png 1920w">
+      <figcaption>I physically jumped out of my chair in excitement after reading this</figcaption>
+    </figure>
+
+  <p>
+    I am very proud of what I achieved with Planking Boarders. After competing in 10s of game jams before starting my course, it was extremely fulfilling to have all that past experience lead me to win this jam in my very first year!
+  </p>
+
+  <p>
+    The rest of this post and following posts are essentially a day-by-day devlog of how I made my entry including the design process, any issues I faced and how I resolved them.
+  </p>
+
+    <h1 id="day-1">
+      Day 1
+    </h1>
+
+  <p>
+    During the first year of my game design course, I attended the yearly GameX conference. Guest speakers from across the game industry - developers, designers, voice actors - are all invited in to talk and answer questions about their experiences in industry. This was already a really fun and educational experience, but the real cherry on top personally was learning that as part the games course lecturers were hosting a game jam open to all students - GameX Jam 2025!
+  </p>
+
+  <p>
+    I knew I had to enter it. I decided I would try tackling this one solo, I had done several game jams before this one alone and decided that I would find it easier to do so considering how short the 3 day deadline was. On the last day of the event, the theme was unveiled - 'Boarders'.
+  </p>
+
+    <h2 id="brainstorming-and-planning">
+      Brainstorming and Planning
+    </h2>
+
+  <p>
+    Usually when I am told it's theme, I like to create and suggest a few ideas for a game jam entry. Then, I/we pick the teams overall favourite and focus on just that one. This time, however, I immediately had two ideas before I even left the conference hall that felt like they would work perfectly together.
+  </p>
+
+  <ol>
+    <li>Boarders as in people <b>boarding </b>a pirate ship Pirates of the Caribbean style.</li><li>Boarders as in people desperately <b>boarding </b>up cannonball holes in a ship to keep it afloat.</li>
+  </ol>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/unnamed.jpg" height="512" width="236" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xs.jpg 640w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-sm.jpg 768w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-md.jpg 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-lg.jpg 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xl.jpg 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-2xl.jpg 1920w">
+      <figcaption>Screenshot of my phone with all the ideas buzzing through my head immediately after the announcement!</figcaption>
+    </figure>
+
+  <p>
+    The game loop I was imagining was meant to be silly and stressful at the same time, like something you would see in an animated kids cartoon. The rules of the game were:
+  </p>
+
+  <ul>
+    <li>The goal of the game is to keep the ship afloat as long as possible.</li><li>To achieve this goal, you must successfully complete tasks such as repairs to delay the ship sinking.</li><li>Each task takes time to physically travel to.</li><li>The game is single player, so you must decide what order every task is approached</li><li>The difficulty comes from prioritising what order to do tasks on the fly as new ones pop up faster and faster.</li><li><s>A minigame should be present for each task to add more skill to the game</s></li>
+  </ul>
+
+  <p>
+    I laid out a few more quick aesthetic design choices that enforced this intended experience, such as making the game 2D and the characters anthropomorphic animals - really just hone in on the Looney Tunes vibes!
+  </p>
+
+  <p>
+    Programming wise, it was a 3 day game jam with no restriction on tools used. This meant I was almost certainly going to use the Godot engine as the game engine and GDscript for the code due to my personal experience and preference. Godot is also very lightweight to allow for quickly iterating on, building and testing my games mechanics.
+  </p>
+
+    <h3 id="game-design">
+      Game Design
+    </h3>
+
+  <p>
+    As the main goal of the game is managing your time based on where you are and how long it takes to get somewhere, I started by designing the physical space where all of these rules would take place - the ship!
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-14-190811.png" height="601" width="877" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-2xl.png 1920w">
+      <figcaption>An empty ship with two decks to help spread everything out!</figcaption>
+    </figure>
+
+  <p>
+    I realised here that I could have one task for each of the two decks. This keeps the game simple to make as I only need to write code and make assets for two tasks, but also keeps the game easy to learn for people who are quickly trying out all the game jam entries. Below is an update the diagram above, with sketches and text to explain what the two tasks are and what the loss condition is.
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept1.png" height="2480" width="3508" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-2xl.png 1920w">
+      <figcaption>The ship layout sketched. Each deck has its own task, and each task can cause the player to lose if not dealt with.</figcaption>
+    </figure>
+
+  <p>
+    This was where mentally visualising the game became much easier. I imagined a player patching a leaking cannonball hole before dashing up to whack a boarder of the ship, only to immediately run back downstairs to patch another hole that just split open again.
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Test Post</title>
         <author>
