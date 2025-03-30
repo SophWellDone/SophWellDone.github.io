@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>SophWellDone</title>
+    <title>Skullbuns Blog</title>
     <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
     <link href="https://sophwelldone.github.io" />
-    <updated>2025-03-30T04:15:16+01:00</updated>
+    <updated>2025-03-30T20:58:19+01:00</updated>
     <author>
         <name>Skullbuns</name>
     </author>
@@ -322,16 +322,20 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
     </h1>
 
   <p>
-    During the first year of my game design course, I attended the yearly GameX conference. Guest speakers from across the game industry - developers, designers, voice actors - are all invited in to talk and answer questions about their experiences in industry. This was already a really fun and educational experience, but the real cherry on top personally was learning that as part the games course lecturers were hosting a game jam open to all students - GameX Jam 2025!
+    During the first year of my game design course, I attended the yearly GameX conference. Guest speakers from across the game industry - developers, designers, voice actors - are all invited in to talk and answer questions about their experiences in industry. This was already a really fun and educational experience, but the real cherry on top personally was learning that as part the games course lecturers were hosting a game jam open to all students!
   </p>
 
   <p>
-    I knew I had to enter it. I decided I would try tackling this one solo, I had done several game jams before this one alone and decided that I would find it easier to do so considering how short the 3 day deadline was. On the last day of the event, the theme was unveiled - 'Boarders'.
+    I knew I had to enter it. I decided I would try tackling this one solo. I had done several game jams before this one alone and felt that I would find it easier to do this one alone too, mainly to avoid communication or team management problems that I couldn't afford in a the short 3 day deadline.&nbsp;
   </p>
 
     <h2 id="brainstorming-and-planning">
       Brainstorming and Planning
     </h2>
+
+  <p>
+    On the last day of the event, the theme was unveiled - <b>'Boarders'</b>.
+  </p>
 
   <p>
     Usually when I am told it's theme, I like to create and suggest a few ideas for a game jam entry. Then, I/we pick the teams overall favourite and focus on just that one. This time, however, I immediately had two ideas before I even left the conference hall that felt like they would work perfectly together.
