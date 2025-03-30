@@ -3,7 +3,7 @@
     <title>Skullbuns Blog</title>
     <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
     <link href="https://sophwelldone.github.io" />
-    <updated>2025-03-30T20:58:19+01:00</updated>
+    <updated>2025-03-30T22:02:57+01:00</updated>
     <author>
         <name>Skullbuns</name>
     </author>
@@ -17,6 +17,8 @@
         <link href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html"/>
         <id>https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html</id>
         <media:content url="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" medium="image" />
+            <category term="Game Jams"/>
+            <category term="2025"/>
 
         <updated>2025-03-29T18:52:46+00:00</updated>
             <summary>
@@ -93,7 +95,7 @@
   <p>
     I was implementing this change, but realised it was somewhat unnecessary. As I wanted to define the time in seconds it takes to fill the ship fully rather than the 'pixels per second' of the water rising, i could just use my existing variable and pass that directly to the shader.
   </p>
-<pre class="line-numbers  language-gdscript"><code>func _process(delta: float) -&gt; void:
+<pre class=" language-gdscript"><code>func _process(delta: float) -&gt; void:
 	var fill_this_frame = get_fill_per_second(current_hole_count)
 	var delta_progress = fill_this_frame * delta
 	water_progress = clamp(water_progress + delta_progress, 0.0, 1.0)
@@ -102,7 +104,7 @@
   <p>
     In the end, it only took one extra line of code in the waters script to update the shader! The last thing i wanted to do was to add a bit of maths to stop the water looking too flat. I decided to use the old reliable - sine waves - to add a slight ripple to the interior water. All this does is move the 'cut off uv coordinate' for making the pixel invisible. The shader itself is only&nbsp;
   </p>
-<pre class="line-numbers  language-glsl"><code>// This is a 2D shader for the interior water of the ship.
+<pre class=" language-glsl"><code>// This is a 2D shader for the interior water of the ship.
 shader_type canvas_item;
 
 //This shader should be applied to a copy of a ships background sprite.
@@ -244,7 +246,7 @@ void fragment() {
   <p>
     My game would work fine in the editor but, upon exporting it and playing it on itch.io, it completely broke. The game would load but nothing would happen - the water was full, you couldn't repair anything, no holes broke and no navy boarders appeared. After spending the last few hours of the jam frantically trying to cross reference errors and scripts, it all lead to the most recent updates to the difficulty. I finally found the error below
   </p>
-<pre class="line-numbers  language-gdscript"><code>load(some_resource_type) #THIS IS BAD AND ONLY WORKS IN EDITOR FOR RESOURCES! 
+<pre class=" language-gdscript"><code>load(some_resource_type) #THIS IS BAD AND ONLY WORKS IN EDITOR FOR RESOURCES! 
 # When game is  exported the custom resources are
 # converted to binary and have a different file location/type.
 
@@ -288,6 +290,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
         <id>https://sophwelldone.github.io/planking-boarders.html</id>
         <media:content url="https://sophwelldone.github.io/media/posts/2/THWACKED.png" medium="image" />
             <category term="Game Jams"/>
+            <category term="2025"/>
 
         <updated>2025-03-29T01:05:10+00:00</updated>
             <summary>
@@ -311,6 +314,10 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
 
   <p>
     I am very proud of what I achieved with Planking Boarders. After competing in 10s of game jams before starting my course, it was extremely fulfilling to have all that past experience lead me to win this jam in my very first year!
+  </p>
+
+  <p>
+    &nbsp;If you want to <a href="https://skullbuns.itch.io/planking-boarders" target="_blank">you can play it on my itch.io </a>- no downloads required!
   </p>
 
   <p>
@@ -443,7 +450,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   <p>
     Next I worked on the water filling the ship. As i was using Godot's Polygon2D nodes, it was quite easy code-wise as I could just modify the top left and top right points of a rectangle to slowly rise
   </p>
-<pre class="line-numbers  language-gdscript"><code># 'start_height_marker' is a 2d marker for where the water height should start
+<pre class=" language-gdscript"><code># 'start_height_marker' is a 2d marker for where the water height should start
 # 'final_height_marker' is a 2d marker for where the water height will cause a
 # game over.
 # I chose to lerp between positions as I could make the variables time based
@@ -497,7 +504,7 @@ func _process(delta: float) -&gt; void:
   <p>
     Instead of linearly increasing, the fill speed is calculated based on a predetermined curve. The values below are the array that the get_fill_per_second() function uses.
   </p>
-<pre class="line-numbers  language-gdscript"><code># stops multiple holes being unfairly quick (2x, 3x, 4x etc.)
+<pre class=" language-gdscript"><code># stops multiple holes being unfairly quick (2x, 3x, 4x etc.)
 var fill_speed_multiplier : Array[float] = [
 	0.0, #0 holes
 	1.0, #1 hole
