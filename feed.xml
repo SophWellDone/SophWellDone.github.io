@@ -5,14 +5,14 @@
     <link href="https://sophwelldone.github.io" />
     <updated>2025-03-30T04:15:16+01:00</updated>
     <author>
-        <name>Sophie Wheldon</name>
+        <name>Skullbuns</name>
     </author>
     <id>https://sophwelldone.github.io</id>
 
     <entry>
         <title>Planking Boarders Devlog #2 - The Final Half</title>
         <author>
-            <name>Sophie Wheldon</name>
+            <name>Skullbuns</name>
         </author>
         <link href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html"/>
         <id>https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html</id>
@@ -282,7 +282,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
     <entry>
         <title>Planking Boarders Devlog #1 - Intro + First Half</title>
         <author>
-            <name>Sophie Wheldon</name>
+            <name>Skullbuns</name>
         </author>
         <link href="https://sophwelldone.github.io/planking-boarders.html"/>
         <id>https://sophwelldone.github.io/planking-boarders.html</id>
