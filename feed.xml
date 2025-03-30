@@ -3,28 +3,31 @@
     <title>SophWellDone</title>
     <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
     <link href="https://sophwelldone.github.io" />
-    <updated>2025-03-30T02:49:51+01:00</updated>
+    <updated>2025-03-30T04:15:16+01:00</updated>
     <author>
         <name>Sophie Wheldon</name>
     </author>
     <id>https://sophwelldone.github.io</id>
 
     <entry>
-        <title>Planking Boarders Devlog #2 - The final Half</title>
+        <title>Planking Boarders Devlog #2 - The Final Half</title>
         <author>
             <name>Sophie Wheldon</name>
         </author>
         <link href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html"/>
         <id>https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html</id>
+        <media:content url="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" medium="image" />
 
         <updated>2025-03-29T18:52:46+00:00</updated>
             <summary>
                 <![CDATA[
-                    Making Assets In the first half&nbsp;of this devlog, we went from a basic concept to a few working mechanics for my game Planking Boarders that won the 2025 GameX jam. The next thing I did, rather than making the game over screens like I now&hellip;
+                        <img src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" alt="" />
+                    Making Assets In the first half&nbsp;of this devlog, we went from a basic concept to a few working mechanics for&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" class="type:primaryImage" alt="" /></p>
                 
     <h2 id="making-assets">
       Making Assets
@@ -43,7 +46,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-16-005613.png" height="586" width="1259" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-xs.png 640w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-sm.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-md.png 1024w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-lg.png 1366w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-xl.png 1600w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-16-005613.png" height="586" width="1259" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-xl.png 1600w">
       <figcaption>Importing a screenshot to Aseprite</figcaption>
     </figure>
 
@@ -61,7 +64,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-16-015205.png" height="648" width="1149" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-xs.png 640w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-sm.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-md.png 1024w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-lg.png 1366w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-xl.png 1600w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-16-015205.png" height="648" width="1149" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-xl.png 1600w">
       <figcaption>The ship ingame - water looks weird now</figcaption>
     </figure>
 
@@ -70,7 +73,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Untitled.png" height="456" width="543" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Untitled-xs.png 640w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-sm.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-md.png 1024w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-lg.png 1366w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-xl.png 1600w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Untitled.png" height="456" width="543" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Untitled-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-xl.png 1600w">
       <figcaption>A very detailed paint diagram of the issue</figcaption>
     </figure>
 
@@ -83,7 +86,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Untitled-2.png" height="727" width="1294" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-xs.png 640w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-sm.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-md.png 1024w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-lg.png 1366w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-xl.png 1600w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Untitled-2.png" height="727" width="1294" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-xl.png 1600w">
       <figcaption>A y-position in pixels goes in, a UV is calculated and used for the shader</figcaption>
     </figure>
 
@@ -218,7 +221,7 @@ void fragment() {
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/difficulties-2.png" height="723" width="256" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-xs.png 640w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-sm.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-md.png 1024w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-lg.png 1366w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-xl.png 1600w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/difficulties-2.png" height="723" width="256" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-xl.png 1600w">
       <figcaption>A snippet of difficulties - example explained below is in red brackets!</figcaption>
     </figure>
 
@@ -283,23 +286,26 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
         </author>
         <link href="https://sophwelldone.github.io/planking-boarders.html"/>
         <id>https://sophwelldone.github.io/planking-boarders.html</id>
+        <media:content url="https://sophwelldone.github.io/media/posts/2/THWACKED.png" medium="image" />
             <category term="Game Jams"/>
 
         <updated>2025-03-29T01:05:10+00:00</updated>
             <summary>
                 <![CDATA[
-                    Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom deck and fighting navy boarders on the top deck. Its a very frantic, silly and cartoony experience! It is also my entry I submitted to&hellip;
+                        <img src="https://sophwelldone.github.io/media/posts/2/THWACKED.png" alt="" />
+                    Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://sophwelldone.github.io/media/posts/2/THWACKED.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom deck and fighting navy boarders on the top deck. Its a very frantic, silly and cartoony experience! It is also my entry I submitted to a game jam my university hosted in my first year of my course and managed to win it!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/peak.png" height="376" width="1000" alt="A screenshot of the announcement that Planking Boarders, my submission, had won the GameX games jam"  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/peak-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/peak.png" height="376" width="1000" alt="A screenshot of the announcement that Planking Boarders, my submission, had won the GameX games jam"  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/peak-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/peak-xl.png 1600w">
       <figcaption>I physically jumped out of my chair in excitement after reading this</figcaption>
     </figure>
 
@@ -336,7 +342,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </ol>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/unnamed.jpg" height="512" width="236" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xs.jpg 640w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-sm.jpg 768w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-md.jpg 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-lg.jpg 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xl.jpg 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-2xl.jpg 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/unnamed.jpg" height="512" width="236" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xs.jpg 384w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-sm.jpg 600w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-md.jpg 768w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-lg.jpg 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xl.jpg 1600w">
       <figcaption>Screenshot of my phone with all the ideas buzzing through my head immediately after the announcement!</figcaption>
     </figure>
 
@@ -365,7 +371,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-14-190811.png" height="601" width="877" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-14-190811.png" height="601" width="877" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xl.png 1600w">
       <figcaption>An empty ship with two decks to help spread everything out!</figcaption>
     </figure>
 
@@ -374,7 +380,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept1.png" height="2480" width="3508" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept1.png" height="2480" width="3508" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xl.png 1600w">
       <figcaption>The ship layout sketched. Each deck has its own task, and each task can cause the player to lose if not dealt with.</figcaption>
     </figure>
 
@@ -387,7 +393,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept2.png" height="2480" width="3508" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept2.png" height="2480" width="3508" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-xl.png 1600w">
       <figcaption>Introducing barrels to the game</figcaption>
     </figure>
 
@@ -408,12 +414,12 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipLayout.png" height="248" width="512" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipLayout.png" height="248" width="512" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-xl.png 1600w">
       <figcaption>Ship Layout as boxes</figcaption>
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-15-002300.png" height="593" width="1063" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-xs.png 640w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-sm.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-md.png 1024w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-lg.png 1366w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-xl.png 1600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-2xl.png 1920w">
+      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-15-002300.png" height="593" width="1063" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-xl.png 1600w">
       
     </figure>
 
