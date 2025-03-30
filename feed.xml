@@ -3,7 +3,7 @@
     <title>SophWellDone</title>
     <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
     <link href="https://sophwelldone.github.io" />
-    <updated>2025-03-30T02:43:01+01:00</updated>
+    <updated>2025-03-30T02:49:51+01:00</updated>
     <author>
         <name>Sophie Wheldon</name>
     </author>
@@ -538,6 +538,10 @@ var fill_speed_multiplier : Array[float] = [
 
   <p>
     This was how the game looked half way through, about one and a half days worth of progress compressed into one little gif. I was happy with my progress, but very wary that I had the whole top deck to do still, along with alot of time needed for drawing the ship and making a nice title screen and finalising the game loop with loss conditions. Notice how the 'finalising the game loop with loss conditions' was the last thing on that list. I should have prioritised that task much higher, as you will find out in the last half.
+  </p>
+
+  <p>
+    You can find the <a href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html">second half of this devlog here</a>, where i go over some of my favourite features and the most terrible bugs of the entire experience developing this game!
   </p>
             ]]>
         </content>
