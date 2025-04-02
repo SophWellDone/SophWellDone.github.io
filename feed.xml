@@ -3,12 +3,56 @@
     <title>Skullbuns Blog</title>
     <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
     <link href="https://sophwelldone.github.io" />
-    <updated>2025-03-30T22:02:57+01:00</updated>
+    <updated>2025-04-02T03:54:40+01:00</updated>
     <author>
         <name>Skullbuns</name>
     </author>
     <id>https://sophwelldone.github.io</id>
 
+    <entry>
+        <title>A new commitment </title>
+        <author>
+            <name>Skullbuns</name>
+        </author>
+        <link href="https://sophwelldone.github.io/new-project.html"/>
+        <id>https://sophwelldone.github.io/new-project.html</id>
+        <media:content url="https://sophwelldone.github.io/media/posts/4/godot-2.png" medium="image" />
+
+        <updated>2025-04-02T03:18:13+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sophwelldone.github.io/media/posts/4/godot-2.png" alt="" />
+                    I know all too well that, with making games, passion and cool concepts will only take you so far. I'd&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sophwelldone.github.io/media/posts/4/godot-2.png" class="type:primaryImage" alt="" /></p>
+                <p>I know all too well that, with making games, <strong>passion and cool concepts will only take you so far</strong>.</p>
+<p>I'd argue that my long list of incomplete, broken and forgotten Godot projects is evidence of that! I want to break this habit, though. I want to try and fully commit to a game, not for a week or two like my usual game jams - I want this next game to be something I can work on for months. I've decided that the best way to work on a game for an extended period is, funnily enough, to set a time limit for it.</p>
+<figure class="post__image post__image--center" ><img loading="lazy" style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://sophwelldone.github.io/media/posts/4/godot.png" alt="" width="298" height="274" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/4/responsive/godot-xs.png 384w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-sm.png 600w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-md.png 768w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-lg.png 1200w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-xl.png 1600w">
+<figcaption >I have 11 finished games on Itch.io, you can do the maths..</figcaption>
+</figure>
+<p>O<span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">K, so</span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> I've had this idea for a funny game for a few weeks. It's a sort of bizarre mix between a monster catcher and crafting game (</span><em style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">monster crafter??</em><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">) with a bit of 3D platforming to tie it all together. The pitch is something along the lines of:</span></p>
+<p><em>' {game name} is a game where you craft sentient clothes out of magical fabrics. Each piece has its own unique personality, as well as granting you powers to find even rarer materials to craft with'</em></p>
+<p>It's an unapoligetically silly idea and I think that is exactly why its been so stuck in my head recently. But this plan and blog post is less about the vague concept I have right now, the concept may change quite drastically - the whole point of this is the 'getting it done' bit! </p>
+<h2>The plan</h2>
+<p>Between the start of June and halfway through September, I have a good three-and-a-bit months with no university lectures to work on this game. My goal is to create a working prototype for this game within this time, complete with a full game loop and reasonably high-quality assets. It doesn't have to be some finished commercial product or anything, I can decide what's next for the end product when I get there.</p>
+<p>From posting this, I have about a month to prepare before fully commiting to this. This is time I will spend writing a Game Design Document (GDD). This giant doc will contain a vast amount of information about the game. Its purpose is to be an all encompassing source of information that prevents second guessing every decision during development, giving me more time once it has started to just work on the game. Some key examples of its contents include:</p>
+<ul>
+<li>The games core values and mechanics that should <em>always</em> be followed.</li>
+<li>The games setting and story.</li>
+<li>What keeps the player motivated and interested.</li>
+<li>How difficult and accessible the game is.</li>
+<li>The target audience for the game.</li>
+<li>Where I will release the game and how/if its going to be marketed.</li>
+</ul>
+<p>I will also create a Kanban style board to help me organise day-to-day tasks when making the game and its assets. This is something I've made a bad habit of starting but ultimately abandoning a few days into my solo projects. A simple Kanban system is not only a way of staying organised but a method of keeping motivated. I rarely take a moment to step back and appreciate my progress on my games until they are shipped and up on itch.io, so having this blog in addition to my board will be a refreshing change of pace. Each week I'll make a new post here reflecting on my progress.</p>
+<p>It is always a good idea to plan a game in great detail like this. I think I've learnt that lesson the hard way after <a href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html">my most recent game jam, where i forgot to even add a loss condition until the last day</a>! I'm going to get some rest, then tommorow this whole plan begins!</p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Planking Boarders Devlog #2 - The Final Half</title>
         <author>
