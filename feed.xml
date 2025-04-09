@@ -3,7 +3,7 @@
     <title>Skullbuns Blog</title>
     <link href="https://skullbuns.com/feed.xml" rel="self" />
     <link href="https://skullbuns.com" />
-    <updated>2025-04-09T17:35:34+01:00</updated>
+    <updated>2025-04-09T17:51:50+01:00</updated>
     <author>
         <name>Skullbuns</name>
     </author>
@@ -391,7 +391,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://skullbuns.com/media/posts/2/game_jam_win_censorerd.png" height="383" width="1015" alt="A screenshot of the announcement that Planking Boarders, my submission, had won the GameX games jam"  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/game_jam_win_censorerd-2.png" height="383" width="1015" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-2-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-2-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-2-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-2-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-2-xl.png 1600w">
       <figcaption>I physically jumped out of my chair in excitement after reading this</figcaption>
     </figure>
 
