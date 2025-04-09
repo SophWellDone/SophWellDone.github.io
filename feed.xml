@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Skullbuns Blog</title>
-    <link href="https://sophwelldone.github.io/feed.xml" rel="self" />
-    <link href="https://sophwelldone.github.io" />
+    <link href="https://skullbuns.com/feed.xml" rel="self" />
+    <link href="https://skullbuns.com" />
     <updated>2025-04-09T17:35:34+01:00</updated>
     <author>
         <name>Skullbuns</name>
     </author>
-    <id>https://sophwelldone.github.io</id>
+    <id>https://skullbuns.com</id>
 
     <entry>
         <title>Project Outcritters Week #1 - What is Outcritters?</title>
         <author>
             <name>Skullbuns</name>
         </author>
-        <link href="https://sophwelldone.github.io/project-outcritters-1-the-beginning.html"/>
-        <id>https://sophwelldone.github.io/project-outcritters-1-the-beginning.html</id>
-        <media:content url="https://sophwelldone.github.io/media/posts/5/Grid.png" medium="image" />
+        <link href="https://skullbuns.com/project-outcritters-1-the-beginning.html"/>
+        <id>https://skullbuns.com/project-outcritters-1-the-beginning.html</id>
+        <media:content url="https://skullbuns.com/media/posts/5/Grid.png" medium="image" />
             <category term="Outcritters"/>
 
         <updated>2025-04-02T20:28:38+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sophwelldone.github.io/media/posts/5/Grid.png" alt="" />
+                        <img src="https://skullbuns.com/media/posts/5/Grid.png" alt="" />
                     Project Outcritters is the game I've started to plan since my last post. I promised that I was going to&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sophwelldone.github.io/media/posts/5/Grid.png" class="type:primaryImage" alt="" /></p>
-                <p>Project Outcritters is the game I've started to plan since <a href="https://sophwelldone.github.io/new-project.html">my last post</a>. I promised that I was going to make a game between May and September, and gave a vague description of my idea for what this game is:</p>
+                    <p><img src="https://skullbuns.com/media/posts/5/Grid.png" class="type:primaryImage" alt="" /></p>
+                <p>Project Outcritters is the game I've started to plan since <a href="https://skullbuns.com/new-project.html">my last post</a>. I promised that I was going to make a game between May and September, and gave a vague description of my idea for what this game is:</p>
 <blockquote>
 <p><em>' {game name} is a game where you craft sentient clothes out of magical fabrics. Each piece has its own unique personality, as well as granting you powers to find even rarer materials to craft with'</em></p>
 </blockquote>
 <p>Thematically i'm still very onboard with the idea! I think the idea of sentient, talking clothes is funny - although I might limit the 'clothes' to just hats and accesories since it could get weird <em>fast</em>. However, concept is still vague - I don't have any mechanics, story or any art direction yet. My goal for this week was to focus on the core gameplay loop specifically, the main overarching goals and milestones the player works towards to keep progressing through Outcrittters.</p>
 <p>With a game about making (and ultimately collecting) creatures, its pretty natural to go the 'pit them against each other in a turn based battle' route a certain popular franchise takes. I had a few other ideas that I didn't see fit, however I ended up really liking and returning back to the first one I came up with. I first imagined a platformer game where each 'Outcritter' helped you traverse in a different way.</p>
 <p>Each outcritter the player can make would have two main components, the silhouette and the fabric. The silhouette is the main component, and is what <em>defines </em>what power the outcritter gives: a dash, a double jump, x seconds of wall climbing etc. The fabric would be the secondary, supporting ingredient that <em>modifies </em>the silhouette slightly, such as making its ability stronger, last longer or have additional uses, with each fabrics upgrade also depending on what the silhouette grants.</p>
-<figure class="post__image"><img loading="lazy"  src="https://sophwelldone.github.io/media/posts/5/ChasmExample.png" alt="" width="1920" height="1080" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/5/responsive/ChasmExample-xs.png 384w ,https://sophwelldone.github.io/media/posts/5/responsive/ChasmExample-sm.png 600w ,https://sophwelldone.github.io/media/posts/5/responsive/ChasmExample-md.png 768w ,https://sophwelldone.github.io/media/posts/5/responsive/ChasmExample-lg.png 1200w ,https://sophwelldone.github.io/media/posts/5/responsive/ChasmExample-xl.png 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://skullbuns.com/media/posts/5/ChasmExample.png" alt="" width="1920" height="1080" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/5/responsive/ChasmExample-xs.png 384w ,https://skullbuns.com/media/posts/5/responsive/ChasmExample-sm.png 600w ,https://skullbuns.com/media/posts/5/responsive/ChasmExample-md.png 768w ,https://skullbuns.com/media/posts/5/responsive/ChasmExample-lg.png 1200w ,https://skullbuns.com/media/posts/5/responsive/ChasmExample-xl.png 1600w"></figure>
 <p> </p>
 <p>Above is an example of when an Outcritter is needed. The player must cross a chasm, perhaps to unlock a new Silhouette/Fabric or to reach the next area of the game. Rather than the game having a single predetermined solution to this, there are a few combinations of Silhouette and Fabric the player can craft together that make an Outcritter capable of crossing the gap. In the GDD, I started calling this 'variance' as it lets players choose to a degree how they tackle challenges.</p>
 <p>In this example, two solutions are shown. Firstly they could jump across by wearing a top hat silhouette critter to get a double jump with a starry fabric that modifies it to give a 3rd jump to . Alternatively, they could use a scarf outcritter that dashes horizontally, choosing the chevron fabric to extend the dash wide enough to reach the end.</p>
 <p>I realised that fabrics would change slightly depending on what they are being applied to. Fabrics could stick to a theme / general change, so I made a grid to demonstrate some of these differences using the 4 possible combination of outcritter based off the first diagram</p>
-<figure class="post__image"><img loading="lazy"  src="https://sophwelldone.github.io/media/posts/5/Grid-4.png" alt="" width="1080" height="1080" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/5/responsive/Grid-4-xs.png 384w ,https://sophwelldone.github.io/media/posts/5/responsive/Grid-4-sm.png 600w ,https://sophwelldone.github.io/media/posts/5/responsive/Grid-4-md.png 768w ,https://sophwelldone.github.io/media/posts/5/responsive/Grid-4-lg.png 1200w ,https://sophwelldone.github.io/media/posts/5/responsive/Grid-4-xl.png 1600w"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://skullbuns.com/media/posts/5/Grid-4.png" alt="" width="1080" height="1080" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/5/responsive/Grid-4-xs.png 384w ,https://skullbuns.com/media/posts/5/responsive/Grid-4-sm.png 600w ,https://skullbuns.com/media/posts/5/responsive/Grid-4-md.png 768w ,https://skullbuns.com/media/posts/5/responsive/Grid-4-lg.png 1200w ,https://skullbuns.com/media/posts/5/responsive/Grid-4-xl.png 1600w"></figure>
 <p> </p>
 <p> </p>
 <p>One of my first design considerations really nailing down how much customisation and progression overlapped. I wanted to encourage players to create unique outcritters as they play the game without forcing them into picking certain types, patterns etc. just for the stats alone. Think about how many times in RPGs you've seen a visually stunning armour set or a really cool companion but never used it because its stats are useless by the time you've found it. Or when you've had to slug on with something visually unappealin g because its defense or attack is just too good to pass up on.  It was about creative freedom whilst also encouraging players to try different combinations.</p>
@@ -54,24 +54,24 @@
         <author>
             <name>Skullbuns</name>
         </author>
-        <link href="https://sophwelldone.github.io/new-project.html"/>
-        <id>https://sophwelldone.github.io/new-project.html</id>
-        <media:content url="https://sophwelldone.github.io/media/posts/4/godot-2.png" medium="image" />
+        <link href="https://skullbuns.com/new-project.html"/>
+        <id>https://skullbuns.com/new-project.html</id>
+        <media:content url="https://skullbuns.com/media/posts/4/godot-2.png" medium="image" />
             <category term="Outcritters"/>
 
         <updated>2025-04-02T03:18:13+01:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sophwelldone.github.io/media/posts/4/godot-2.png" alt="" />
+                        <img src="https://skullbuns.com/media/posts/4/godot-2.png" alt="" />
                     I know all too well that, with making games, passion and cool concepts will only take you so far. I'd&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sophwelldone.github.io/media/posts/4/godot-2.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://skullbuns.com/media/posts/4/godot-2.png" class="type:primaryImage" alt="" /></p>
                 <p>I know all too well that, with making games, <strong>passion and cool concepts will only take you so far</strong>.</p>
 <p>I'd argue that my long list of incomplete, broken and forgotten Godot projects is evidence of that! I want to break this habit, though. I want to try and fully commit to a game, not for a week or two like my usual game jams - I want this next game to be something I can work on for months. I've decided that the best way to work on a game for an extended period is, funnily enough, to set a time limit for it.</p>
-<figure class="post__image post__image--center" ><img loading="lazy" style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://sophwelldone.github.io/media/posts/4/godot.png" alt="" width="298" height="274" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/4/responsive/godot-xs.png 384w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-sm.png 600w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-md.png 768w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-lg.png 1200w ,https://sophwelldone.github.io/media/posts/4/responsive/godot-xl.png 1600w">
+<figure class="post__image post__image--center" ><img loading="lazy" style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://skullbuns.com/media/posts/4/godot.png" alt="" width="298" height="274" sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/4/responsive/godot-xs.png 384w ,https://skullbuns.com/media/posts/4/responsive/godot-sm.png 600w ,https://skullbuns.com/media/posts/4/responsive/godot-md.png 768w ,https://skullbuns.com/media/posts/4/responsive/godot-lg.png 1200w ,https://skullbuns.com/media/posts/4/responsive/godot-xl.png 1600w">
 <figcaption >I have 11 finished games on Itch.io, you can do the maths..</figcaption>
 </figure>
 <p>O<span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">K, so</span><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);"> I've had this idea for a funny game for a few weeks. It's a sort of bizarre mix between a monster catcher and crafting game (</span><em style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">monster crafter??</em><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">) with a bit of 3D platforming to tie it all together. The pitch is something along the lines of:</span></p>
@@ -89,7 +89,7 @@
 <li>Where I will release the game and how/if its going to be marketed.</li>
 </ul>
 <p>I will also create a Kanban style board to help me organise day-to-day tasks when making the game and its assets. This is something I've made a bad habit of starting but ultimately abandoning a few days into my solo projects. A simple Kanban system is not only a way of staying organised but a method of keeping motivated. I rarely take a moment to step back and appreciate my progress on my games until they are shipped and up on itch.io, so having this blog in addition to my board will be a refreshing change of pace. Each week I'll make a new post here reflecting on my progress.</p>
-<p>It is always a good idea to plan a game in great detail like this. I think I've learnt that lesson the hard way after <a href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html">my most recent game jam, where i forgot to even add a loss condition until the last day</a>! I'm going to get some rest, then tommorow this whole plan begins!</p>
+<p>It is always a good idea to plan a game in great detail like this. I think I've learnt that lesson the hard way after <a href="https://skullbuns.com/planking-boarders-devlog-the-final-half.html">my most recent game jam, where i forgot to even add a loss condition until the last day</a>! I'm going to get some rest, then tommorow this whole plan begins!</p>
 <p> </p>
             ]]>
         </content>
@@ -99,28 +99,28 @@
         <author>
             <name>Skullbuns</name>
         </author>
-        <link href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html"/>
-        <id>https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html</id>
-        <media:content url="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" medium="image" />
+        <link href="https://skullbuns.com/planking-boarders-devlog-the-final-half.html"/>
+        <id>https://skullbuns.com/planking-boarders-devlog-the-final-half.html</id>
+        <media:content url="https://skullbuns.com/media/posts/3/Screenshot-2025-03-17-035418.png" medium="image" />
             <category term="Game Jams"/>
 
         <updated>2025-03-29T18:52:46+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" alt="" />
+                        <img src="https://skullbuns.com/media/posts/3/Screenshot-2025-03-17-035418.png" alt="" />
                     Making Assets In the first half&nbsp;of this devlog, we went from a basic concept to a few working mechanics for&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-17-035418.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://skullbuns.com/media/posts/3/Screenshot-2025-03-17-035418.png" class="type:primaryImage" alt="" /></p>
                 
     <h2 id="making-assets">
       Making Assets
     </h2>
 
   <p>
-    In the <a href="https://sophwelldone.github.io/planking-boarders.html">first half</a>&nbsp;of this devlog, we went from a basic concept to a few working mechanics for my game Planking Boarders that won the 2025 GameX jam. The next thing I did, rather than making the game over screens like I now realise I <i>should</i> have, was making more sprites - this time the ship!
+    In the <a href="https://skullbuns.com/planking-boarders.html">first half</a>&nbsp;of this devlog, we went from a basic concept to a few working mechanics for my game Planking Boarders that won the 2025 GameX jam. The next thing I did, rather than making the game over screens like I now realise I <i>should</i> have, was making more sprites - this time the ship!
   </p>
 
     <h3 id="ship-sprite">
@@ -132,7 +132,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-16-005613.png" height="586" width="1259" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-005613-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/Screenshot-2025-03-16-005613.png" height="586" width="1259" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-005613-xs.png 384w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-005613-sm.png 600w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-005613-md.png 768w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-005613-lg.png 1200w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-005613-xl.png 1600w">
       <figcaption>Importing a screenshot to Aseprite</figcaption>
     </figure>
 
@@ -141,7 +141,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Ship.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/Ship.gif" height="650" width="1154" alt="" >
       <figcaption>The stages of making the ship</figcaption>
     </figure>
 
@@ -150,7 +150,7 @@
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Screenshot-2025-03-16-015205.png" height="648" width="1149" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Screenshot-2025-03-16-015205-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/Screenshot-2025-03-16-015205.png" height="648" width="1149" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-015205-xs.png 384w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-015205-sm.png 600w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-015205-md.png 768w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-015205-lg.png 1200w ,https://skullbuns.com/media/posts/3/responsive/Screenshot-2025-03-16-015205-xl.png 1600w">
       <figcaption>The ship ingame - water looks weird now</figcaption>
     </figure>
 
@@ -159,7 +159,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Untitled.png" height="456" width="543" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Untitled-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/Untitled.png" height="456" width="543" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/3/responsive/Untitled-xs.png 384w ,https://skullbuns.com/media/posts/3/responsive/Untitled-sm.png 600w ,https://skullbuns.com/media/posts/3/responsive/Untitled-md.png 768w ,https://skullbuns.com/media/posts/3/responsive/Untitled-lg.png 1200w ,https://skullbuns.com/media/posts/3/responsive/Untitled-xl.png 1600w">
       <figcaption>A very detailed paint diagram of the issue</figcaption>
     </figure>
 
@@ -172,7 +172,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/Untitled-2.png" height="727" width="1294" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/Untitled-2-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/Untitled-2.png" height="727" width="1294" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/3/responsive/Untitled-2-xs.png 384w ,https://skullbuns.com/media/posts/3/responsive/Untitled-2-sm.png 600w ,https://skullbuns.com/media/posts/3/responsive/Untitled-2-md.png 768w ,https://skullbuns.com/media/posts/3/responsive/Untitled-2-lg.png 1200w ,https://skullbuns.com/media/posts/3/responsive/Untitled-2-xl.png 1600w">
       <figcaption>A y-position in pixels goes in, a UV is calculated and used for the shader</figcaption>
     </figure>
 
@@ -243,7 +243,7 @@ void fragment() {
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/SinWAVES.gif" height="859" width="1497" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/SinWAVES.gif" height="859" width="1497" alt="" >
       <figcaption>Playing with the progress and wave height variables!</figcaption>
     </figure>
 
@@ -260,7 +260,7 @@ void fragment() {
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/BubblesVERYFANCY.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/BubblesVERYFANCY.gif" height="650" width="1154" alt="" >
       <figcaption>Droplets turn to bubbles - we're going down!!</figcaption>
     </figure>
 
@@ -277,7 +277,7 @@ void fragment() {
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/NavyAnimations.gif" height="755" width="923" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/NavyAnimations.gif" height="755" width="923" alt="" >
       <figcaption>Reusing animation is much more efficient!</figcaption>
     </figure>
 
@@ -286,7 +286,7 @@ void fragment() {
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/ProgressLastNight.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/ProgressLastNight.gif" height="650" width="1154" alt="" >
       
     </figure>
 
@@ -307,7 +307,7 @@ void fragment() {
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/3/difficulties-2.png" height="723" width="256" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-xs.png 384w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-sm.png 600w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-md.png 768w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-lg.png 1200w ,https://sophwelldone.github.io/media/posts/3/responsive/difficulties-2-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/3/difficulties-2.png" height="723" width="256" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/3/responsive/difficulties-2-xs.png 384w ,https://skullbuns.com/media/posts/3/responsive/difficulties-2-sm.png 600w ,https://skullbuns.com/media/posts/3/responsive/difficulties-2-md.png 768w ,https://skullbuns.com/media/posts/3/responsive/difficulties-2-lg.png 1200w ,https://skullbuns.com/media/posts/3/responsive/difficulties-2-xl.png 1600w">
       <figcaption>A snippet of difficulties - example explained below is in red brackets!</figcaption>
     </figure>
 
@@ -370,28 +370,28 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
         <author>
             <name>Skullbuns</name>
         </author>
-        <link href="https://sophwelldone.github.io/planking-boarders.html"/>
-        <id>https://sophwelldone.github.io/planking-boarders.html</id>
-        <media:content url="https://sophwelldone.github.io/media/posts/2/THWACKED.png" medium="image" />
+        <link href="https://skullbuns.com/planking-boarders.html"/>
+        <id>https://skullbuns.com/planking-boarders.html</id>
+        <media:content url="https://skullbuns.com/media/posts/2/THWACKED.png" medium="image" />
             <category term="Game Jams"/>
 
         <updated>2025-03-29T01:05:10+00:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sophwelldone.github.io/media/posts/2/THWACKED.png" alt="" />
+                        <img src="https://skullbuns.com/media/posts/2/THWACKED.png" alt="" />
                     Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sophwelldone.github.io/media/posts/2/THWACKED.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://skullbuns.com/media/posts/2/THWACKED.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     Planking Boarders is a game about keeping a ship afloat by juggling two tasks: repairing cannonball holes on the bottom deck and fighting navy boarders on the top deck. Its a very frantic, silly and cartoony experience! It is also my entry I submitted to a game jam my university hosted in my first year of my course and managed to win it!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/game_jam_win_censorerd.png" height="383" width="1015" alt="A screenshot of the announcement that Planking Boarders, my submission, had won the GameX games jam"  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/game_jam_win_censorerd-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/game_jam_win_censorerd-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/game_jam_win_censorerd-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/game_jam_win_censorerd-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/game_jam_win_censorerd-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/game_jam_win_censorerd.png" height="383" width="1015" alt="A screenshot of the announcement that Planking Boarders, my submission, had won the GameX games jam"  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/game_jam_win_censorerd-xl.png 1600w">
       <figcaption>I physically jumped out of my chair in excitement after reading this</figcaption>
     </figure>
 
@@ -436,7 +436,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </ol>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/unnamed.jpg" height="512" width="236" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xs.jpg 384w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-sm.jpg 600w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-md.jpg 768w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-lg.jpg 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/unnamed-xl.jpg 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/unnamed.jpg" height="512" width="236" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/unnamed-xs.jpg 384w ,https://skullbuns.com/media/posts/2/responsive/unnamed-sm.jpg 600w ,https://skullbuns.com/media/posts/2/responsive/unnamed-md.jpg 768w ,https://skullbuns.com/media/posts/2/responsive/unnamed-lg.jpg 1200w ,https://skullbuns.com/media/posts/2/responsive/unnamed-xl.jpg 1600w">
       <figcaption>Screenshot of my phone with all the ideas buzzing through my head immediately after the announcement!</figcaption>
     </figure>
 
@@ -465,7 +465,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-14-190811.png" height="601" width="877" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-14-190811-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/Screenshot-2025-03-14-190811.png" height="601" width="877" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-14-190811-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-14-190811-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-14-190811-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-14-190811-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-14-190811-xl.png 1600w">
       <figcaption>An empty ship with two decks to help spread everything out!</figcaption>
     </figure>
 
@@ -474,7 +474,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept1.png" height="2480" width="3508" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept1-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/ShipConcept1.png" height="2480" width="3508" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/ShipConcept1-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept1-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept1-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept1-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept1-xl.png 1600w">
       <figcaption>The ship layout sketched. Each deck has its own task, and each task can cause the player to lose if not dealt with.</figcaption>
     </figure>
 
@@ -487,7 +487,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipConcept2.png" height="2480" width="3508" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipConcept2-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/ShipConcept2.png" height="2480" width="3508" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/ShipConcept2-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept2-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept2-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept2-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/ShipConcept2-xl.png 1600w">
       <figcaption>Introducing barrels to the game</figcaption>
     </figure>
 
@@ -508,12 +508,12 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/ShipLayout.png" height="248" width="512" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/ShipLayout-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/ShipLayout.png" height="248" width="512" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/ShipLayout-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/ShipLayout-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/ShipLayout-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/ShipLayout-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/ShipLayout-xl.png 1600w">
       <figcaption>Ship Layout as boxes</figcaption>
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/Screenshot-2025-03-15-002300.png" height="593" width="1063" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-xs.png 384w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-sm.png 600w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-md.png 768w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-lg.png 1200w ,https://sophwelldone.github.io/media/posts/2/responsive/Screenshot-2025-03-15-002300-xl.png 1600w">
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/Screenshot-2025-03-15-002300.png" height="593" width="1063" alt=""  sizes="(min-width: 37.5em) 1600px, 80vw" srcset="https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-15-002300-xs.png 384w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-15-002300-sm.png 600w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-15-002300-md.png 768w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-15-002300-lg.png 1200w ,https://skullbuns.com/media/posts/2/responsive/Screenshot-2025-03-15-002300-xl.png 1600w">
       
     </figure>
 
@@ -522,7 +522,7 @@ ResourceLoader.load(some_resource_type) #this is what I should have used!
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/OneWayPlatforms.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/OneWayPlatforms.gif" height="650" width="1154" alt="" >
       
     </figure>
 
@@ -551,7 +551,7 @@ func _process(delta: float) -&gt; void:
  	water_poly.polygon[1].y = water_height</code></pre>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/WaterRising.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/WaterRising.gif" height="650" width="1154" alt="" >
       <figcaption>Water rising - spooky!!</figcaption>
     </figure>
 
@@ -572,7 +572,7 @@ func _process(delta: float) -&gt; void:
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/WaterStopping.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/WaterStopping.gif" height="650" width="1154" alt="" >
       
     </figure>
 
@@ -610,8 +610,8 @@ var fill_speed_multiplier : Array[float] = [
   <div  class="gallery-wrapper">
     <div class="gallery" data-columns="3">
       <figure class="gallery__item">
-      <a href="https://sophwelldone.github.io/media/posts/2/gallery/char.png" data-size="512x367">
-        <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/gallery/char-thumbnail.png" height="367" width="512" alt="An outline for the character, and it fits the collision shape!" >
+      <a href="https://skullbuns.com/media/posts/2/gallery/char.png" data-size="512x367">
+        <img loading="lazy" src="https://skullbuns.com/media/posts/2/gallery/char-thumbnail.png" height="367" width="512" alt="An outline for the character, and it fits the collision shape!" >
       </a>
       
     </figure>
@@ -623,7 +623,7 @@ var fill_speed_multiplier : Array[float] = [
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/CharacterUnclean.gif" height="640" width="640" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/CharacterUnclean.gif" height="640" width="640" alt="" >
       <figcaption>Cute and efficient walk cycle :)</figcaption>
     </figure>
 
@@ -632,7 +632,7 @@ var fill_speed_multiplier : Array[float] = [
     </h2>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://sophwelldone.github.io/media/posts/2/BunnyAnimated.gif" height="650" width="1154" alt="" >
+      <img loading="lazy" src="https://skullbuns.com/media/posts/2/BunnyAnimated.gif" height="650" width="1154" alt="" >
       
     </figure>
 
@@ -641,7 +641,7 @@ var fill_speed_multiplier : Array[float] = [
   </p>
 
   <p>
-    You can find the <a href="https://sophwelldone.github.io/planking-boarders-devlog-the-final-half.html">second half of this devlog here</a>, where i go over some of my favourite features and the most terrible bugs of the entire experience developing this game!
+    You can find the <a href="https://skullbuns.com/planking-boarders-devlog-the-final-half.html">second half of this devlog here</a>, where i go over some of my favourite features and the most terrible bugs of the entire experience developing this game!
   </p>
             ]]>
         </content>
